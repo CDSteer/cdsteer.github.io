@@ -2,17 +2,16 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: blank # the website title (if blank, full name will be used instead)
-first_name: You
-middle_name: R.
-last_name: Name
-email: you@example.com
+title: Dr # the website title (if blank, full name will be used instead)
+first_name: Cameron
+middle_name:
+last_name: Steer
+email: cdsteer94@gmail.com
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
 url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
@@ -42,9 +41,9 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: # your GitHub user name
-twitter_username: # your Twitter handle
-linkedin_username: # your LinkedIn user name
+github_username: cdsteer # your GitHub user name
+twitter_username: cdsteer # your Twitter handle
+linkedin_username: cdsteer # your LinkedIn user name
 scholar_userid: # your Google Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username
@@ -132,8 +131,8 @@ plugins:
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Steer
+  first_name: Cameron
 
   style: apa
   locale: en
@@ -160,7 +159,7 @@ enable_panelbear_analytics: false
 enable_mansory:             true
 enable_math:                true
 enable_tooltips:            false
-enable_darkmode:            true
+enable_darkmode:            false
 show_social_icons:          false
 
 # -----------------------------------------------------------------------------
@@ -194,5 +193,3 @@ mdb:
 popper:
   version: "2.4.4"
   integrity: "sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A=="
-
-github: [metadata]

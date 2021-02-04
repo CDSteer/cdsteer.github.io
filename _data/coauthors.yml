@@ -1,18 +1,23 @@
-"Adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
+"Jones":
+  - firstname: ["Matt", "M.", "Matt Jones"]
+    url: https://www.cs.swan.ac.uk/~csmatt/
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"Robinson":
+  - firstname: ["Simon", "S.", "Simon Robinson"]
+    url: https://cs.swansea.ac.uk/~cssimonr/
 
-"Rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"Pearson":
+  - firstname: ["Jennifer", "J.", Jen, "Jennifer Pearson"]
+    url: https://cs.swan.ac.uk/~csjen/
 
-"Bach": 
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"Goguey":
+  - firstname: ["Alix", "A.", "Alix Goguey"]
+    url: http://alixgoguey.fr/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+"Lucero":
+  - firstname: ["Andrés", "A.", "Andrés Lucero"]
+    url: http://www.funkydesignspaces.com/
+
+"Sahoo":
+  - firstname: ["Deepak", "D.", "Deepak Sahoo"]
+    url: https://www.swansea.ac.uk/staff/science/compsci/sahoo-d-r/
