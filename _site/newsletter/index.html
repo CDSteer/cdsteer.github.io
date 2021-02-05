@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Cameron  Steer | Announcement_1</title>
+<title>Cameron  Steer | newsletter</title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 ">
 
@@ -29,7 +29,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/news/announcement_1/">
+<link rel="canonical" href="/newsletter/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -109,9 +109,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/newsletter/">
                 newsletter
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -156,21 +158,39 @@
     <!-- Content -->
 
     <div class="container mt-5">
-      
-
-<div class="post">
+      <div class="post">
 
   <header class="post-header">
-    <h1 class="post-title">Announcement_1</h1>
-    <p class="post-meta">June 30, 2020</p>
+    <h1 class="post-title">newsletter</h1>
+    <p class="post-description">Join my newsletter.</p>
   </header>
 
-  <article class="post-content">
-    <p>Graduated with a PhD from Swansea University 🎓 (Minus the ceremony due to COVID-19)</p>
+  <article>
+    <!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course. -->
+
+<div id="revue-embed" class="form-group">
+  <form action="https://www.getrevue.co/profile/cdsteer/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
+  <div class="revue-form-group">
+    <label for="member_email">Email address</label>
+    <input class="revue-form-field form-control" placeholder="Your email address..." type="email" name="member[email]" id="member_email" />
+  </div>
+
+  <div class="revue-form-group">
+    <label for="member_first_name">First name <span class="optional">(Optional)</span></label>
+    <input class="revue-form-field form-control" placeholder="First name" type="text" name="member[first_name]" id="member_first_name" />
+  </div>
+
+  <div class="revue-form-group">
+    <label for="member_last_name">Last name <span class="optional">(Optional)</span></label>
+    <input class="revue-form-field form-control" placeholder="Last name" type="text" name="member[last_name]" id="member_last_name" />
+  </div>
+
+  <div class="revue-form-actions">
+    <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit" class="btn btn-primary" />
+  </div>
+</form></div>
 
   </article>
-
-  
 
 </div>
 
