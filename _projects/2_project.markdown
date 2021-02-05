@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image
-img: /assets/img/3.jpg
-importance: 2
+title: DigiSwatch
+description: A Tangible Modular Tool for Designers toInteract with Digital Colours
+img: /assets/img/digiSwatch.png
+importance: 1
 ---
 
 Every project has a beautiful feature showcase page.

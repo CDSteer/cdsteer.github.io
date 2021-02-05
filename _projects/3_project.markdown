@@ -1,9 +1,8 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: /assets/img/7.jpg
-redirect: https://unsplash.com
+title: Actuated Sliders
+description: Exploring in-hand deformation for sliders.
+img: /assets/img/slider.png
 importance: 3
 ---
 

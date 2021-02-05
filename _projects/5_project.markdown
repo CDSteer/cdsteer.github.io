@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 5
-description: a project with a background image
-img: /assets/img/1.jpg
+title: Growth, change and decay
+description: Plants and interaction possibilities
+img: /assets/img/plant.png
 importance: 3
 ---
 

@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Undergraduate dissertation
+description: Group music interface for people living with dementia.
+img: /assets/img/ss.png
 importance: 4
 ---
 

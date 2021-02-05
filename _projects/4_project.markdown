@@ -1,8 +1,8 @@
 ---
 layout: page
-title: project 4
-description: another without an image
-img:
+title: Actuated Painting Controls
+description: Exploring actuated controls digital painting.
+img: /assets/img/defom.png
 importance: 3
 ---
 

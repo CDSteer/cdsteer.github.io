@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: /assets/img/12.jpg
-importance: 1
+title: Dynamic Paint Textures
+description: Simulating paint textures on mobile screens
+img: /assets/img/gelProto.jpg
+importance: 2
 ---
 
 Every project has a beautiful feature showcase page.
