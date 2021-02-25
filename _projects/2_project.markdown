@@ -2,7 +2,7 @@
 layout: page
 title: DigiSwatch
 description: A Tangible Modular Tool for Designers toInteract with Digital Colours
-img: /assets/img/digiSwatch.png
+img: /assets/img/digiswatch.png
 importance: 1
 ---
 
