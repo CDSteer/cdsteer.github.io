@@ -2,12 +2,12 @@
 layout: about
 title: about
 permalink: /
-description:
+description: Research Associate, University of Bath
 
 profile:
   align: right
   image: pic.jpg
-  address: 
+  address:
 
 news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
