@@ -6,7 +6,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-<title>Cameron  Steer | Cameron Steer</title>
+<title>Cameron  Steer | newsletter</title>
 <meta name="description" content="">
 
 <!-- Open Graph -->
@@ -28,7 +28,7 @@
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <link rel="stylesheet" href="/assets/css/main.css">
 
-<link rel="canonical" href="/blog/">
+<link rel="canonical" href="/newsletter/">
 
 <!-- JQuery -->
 <!-- jQuery -->
@@ -89,7 +89,7 @@
           </li>
           
           <!-- Blog -->
-          <li class="nav-item active">
+          <li class="nav-item ">
             <a class="nav-link" href="/blog/">
               blog
               
@@ -108,9 +108,11 @@
           
           
           
-          <li class="nav-item ">
+          <li class="nav-item active">
               <a class="nav-link" href="/newsletter/">
                 newsletter
+                
+                <span class="sr-only">(current)</span>
                 
               </a>
           </li>
@@ -157,24 +159,37 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1>Cameron's Blog</h1>
-    <h2>Learning and Shareing in Public</h2>
+  <header class="post-header">
+    <h1 class="post-title">newsletter</h1>
+    <p class="post-description">Join my newsletter.</p>
+  </header>
+
+  <article>
+    <!-- For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course. -->
+
+<div id="revue-embed" class="form-group">
+  <form action="https://www.getrevue.co/profile/cdsteer/add_subscriber" method="post" id="revue-form" name="revue-form" target="_blank">
+  <div class="revue-form-group">
+    <label for="member_email">Email address</label>
+    <input class="revue-form-field form-control" placeholder="Your email address..." type="email" name="member[email]" id="member_email" />
   </div>
 
+  <div class="revue-form-group">
+    <label for="member_first_name">First name <span class="optional">(Optional)</span></label>
+    <input class="revue-form-field form-control" placeholder="First name" type="text" name="member[first_name]" id="member_first_name" />
+  </div>
 
-  <ul class="post-list">
-    
-      <li>
-        <h3><a class="post-title" href="/blog/2015/phd-meeting-minites-system/">A Meeting Minutes System - For Every PhD Student</a></h3>
-        <p class="post-meta">October 20, 2015</p>
-        <p>Taking meeting minutes as a PhD Student</p>
-      </li>
-    
-  </ul>
+  <div class="revue-form-group">
+    <label for="member_last_name">Last name <span class="optional">(Optional)</span></label>
+    <input class="revue-form-field form-control" placeholder="Last name" type="text" name="member[last_name]" id="member_last_name" />
+  </div>
 
-  
+  <div class="revue-form-actions">
+    <input type="submit" value="Subscribe" name="member[subscribe]" id="member_submit" class="btn btn-primary" />
+  </div>
+</form></div>
 
+  </article>
 
 </div>
 
