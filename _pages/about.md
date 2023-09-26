@@ -15,7 +15,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 <strong>
-  My key areas are Human-computer interaction (HCI), user experience (UX), and physical computing. I am particularly interested in projects that seek to understand and/or create novel interaction techniques using tangible user interfaces (TUIs), shape-changing technologies and non-ridged surfaces.  I am curious about their potential applications to enhance digital art and design tools and/or game controllers. 
+  My key areas are Human-Computer Interaction (HCI), User Experience (UX), and Physical Computing. I am particularly interested in projects that seek to understand and/or create novel interaction techniques using tangible user interfaces (TUIs), shape-changing technologies and non-ridged surfaces.  I am curious about their potential applications to enhance digital art and design tools and/or game controllers. 
 </strong>
 
 My [PhD thesis](/assets/pdf/cameron_steer_thesis_final.pdf) focused on enhancing digital art and design technology with new tangible augmentations such as mobiles that feel like paint or module screens for colour exploration.
