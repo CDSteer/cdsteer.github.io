@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: Research Associate, University of Bath
+description: Computer Science Lecturer, University of West England (UWE)
 
 profile:
   align: right
@@ -14,9 +14,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-<strong>I work in the field of human-computer interaction and user experience, where I work on novel interaction techniques, tangible interfaces and shape changing technologies.</strong>
+<strong>
+  My key areas are Human-computer interaction (HCI), user experience (UX), and physical computing. I am particularly interested in projects that seek to understand and/or create novel interaction techniques using tangible user interfaces (TUIs), shape-changing technologies and non-ridged surfaces.  I am curious about their potential applications to enhance digital art and design tools and/or game controllers. 
+</strong>
 
-My [PhD thesis](/assets/pdf/cameron_steer_thesis_final.pdf) focused on enhancing digital art and design technology with new tangible augmentations such as mobiles that feel like paint or module screens for colour exploration. In pursuit of bringing ideas to life I engaged with people in workshops and interviews for scoping ideas, built prototypes and testing them in user studies. During this time I enhanced my skills in rapid software and hardware (including some chemical) prototyping. I used a wide range of UX research methods, and conducted the necessary data analysis to test research questions and validate ideas. During my PhD I presented academic papers in world-leading conferences, collaborated with BBC R&D, and was a finalist in EPSRC Nation of Pioneers.
+My [PhD thesis](/assets/pdf/cameron_steer_thesis_final.pdf) focused on enhancing digital art and design technology with new tangible augmentations such as mobiles that feel like paint or module screens for colour exploration.
 
 <!-- Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
