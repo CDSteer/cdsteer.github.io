@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<title>Cameron  Steer | Dynamic Paint Textures</title>
+<meta name="description" content="">
+
+<!-- Open Graph -->
+
+
+<!-- Bootstrap & MDB -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha512-MoRNloxbStBcD8z3M/2BmnT+rg4IsMxPkXaGh2zD6LGNNFE80W3onsAhRcMAMrSoyWL9xD7Ert0men7vR8LUZg==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" integrity="sha512-RO38pBRxYH3SoOprtPTD86JFOclM51/XTIdEPh5j8sj4tp8jmQIx26twG52UaLi//hQldfrh7e51WzP9wuP32Q==" crossorigin="anonymous" />
+
+<!-- Fonts & Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog==" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.0/css/academicons.min.css" integrity="sha512-W4yqoT1+8NLkinBLBZko+dFB2ZbHsYLDdr50VElllRcNt2Q4/GSs6u71UHKxB7S6JEMCp5Ve4xjh3eGQl/HRvg==" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+<!-- Code Syntax Highlighting -->
+<link rel="stylesheet" href="https://gitcdn.link/repo/jwarby/jekyll-pygments-themes/master/github.css" />
+
+<!-- Styles -->
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<link rel="stylesheet" href="/assets/css/main.css">
+
+<link rel="canonical" href="/projects/paint_texture/">
+
+<!-- JQuery -->
+<!-- jQuery -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
+
+
+<!-- Theming-->
+
+
+
+
+
+
+    
+<!-- MathJax -->
+<script type="text/javascript">
+  window.MathJax = {
+    tex: {
+      tags: 'ams'
+    }
+  };
+</script>
+<script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.1.2/es5/tex-mml-chtml.js"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+  </head>
+
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+
+    <header>
+
+    <!-- Nav Bar -->
+    <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+    <div class="container">
+      
+      <a class="navbar-brand title font-weight-lighter" href="/">
+       <span class="font-weight-bold">Cameron</span>   Steer
+      </a>
+      
+      <!-- Navbar Toggle -->
+      <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar top-bar"></span>
+        <span class="icon-bar middle-bar"></span>
+        <span class="icon-bar bottom-bar"></span>
+      </button>
+      <div class="collapse navbar-collapse text-right" id="navbarNav">
+        <ul class="navbar-nav ml-auto flex-nowrap">
+          <!-- About -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/">
+              about
+              
+            </a>
+          </li>
+          
+          <!-- Blog -->
+          <li class="nav-item ">
+            <a class="nav-link" href="/blog/">
+              blog
+              
+            </a>
+          </li>
+          
+          <!-- Other pages -->
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/projects/">
+                projects
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
+              <a class="nav-link" href="/teaching/">
+                teaching
+                
+              </a>
+          </li>
+          
+          
+          
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+</header>
+
+
+    <!-- Content -->
+
+    <div class="container mt-5">
+      <div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Dynamic Paint Textures</h1>
+    <p class="post-description">Simulating paint textures on mobile screens</p>
+  </header>
+
+  <article>
+    <div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/gelProto.jpg" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    
+</div>
+
+<h2 id="abstract">Abstract</h2>
+
+<p>Digital painting is an increasingly popular medium of expression for many artists, yet when compared to its traditional equivalents of physical brushes and viscus paint it lacks a dimension of tangibility. We conducted observations and in- terviews with physical and digital artists, which gave us a strong understanding of the types of interactions used to create both physical and digital art, and the important role tangibility plays within these experiences. From this, we developed a unique liquid-like tangible display for mobile, digital colour mixing. Using a chemical hydrogel that changes its viscosity depending on temperature, we are able to simulate the tangible feeling of mixing paint with a finger. This paper documents the information gathered from working with artists, how this process informed the development of a mobile painting attach- ment, and an exploration of its capabilities. We then document the feedback gathered from the artists, after returning with the prototype. We learnt it provided them with sensations of oil and acrylic paint mixing, while also successful mimicked how paints are laid out on a paint palette. <a class="citation" href="#steerLiquidTangibleDisplay2018">(Steer et al., 2018)</a></p>
+
+<h2 id="prototype">Prototype</h2>
+
+<p>The final interaction of the prototype allowed the user to hold the device in a single hand with their fingers on the back to reach the gel, while their thumb on the front screen is able to select the desired starting colour. It also moves us towards envisioning the gel palette in the form of a mobile accessory that can be added to any standard mobile device. The user begins their interaction by picking the colour on the phone app. This imitates how an artist would pick out their starting paints to place on the palette. Once the colour is set, the gel on the back of the phone can now be manipulated, as touch sensing and temperature control in that area is now active.</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        <img class="img-fluid rounded z-depth-1" src="/assets/img/temp-change.png" alt="" title="example image" />
+    </div>
+</div>
+<div class="caption">
+    Hydrogel states as temperature is changed, Left: The gel is at its hardest, feeling like an oil-based paint. Centre: The gel is softer and thinned out, feeling more like an acrylic-based paint. Right: The gel is now at its softest after being fully thinned out, and feels more like a water-based paint.
+</div>
+
+<p>When the user touches the back of the mirrored location of the paint on the screen, the touch is registered as an interaction. From this point, the user can push and rub the gel. This will cause the gel to be actuated towards a softer state. The user will see the colour on the phone screen decrease in saturation. This interaction process simulates the paints to thin in order to alter their shade. Once the user has mixed their desired saturation, they can select it with their finger or stylus on the phone screen. They then use the colour on the canvas application. Our technical implementation of the prototype is layered to provide the temperature actuation. The hydrogel sits under a layer of polyurethane on top of the resistive touchscreen. This screen then sits on a 4x3 array of Peltier modules, each with a 15x15mm activation layer. Each Peltier module can cool or heat the gel. This is controlled by an IC chip, so by using an Arduino, we can switch the H-Bridge within the chip for each Peltier to either cool the gel making it appear soft or heat it to appear stiff. In order for the Peltier to efficiently cool the hydrogel, we add a heat sink underneath the grid. This disperses the heat from the hot side of the Peltier and cools the active side. This activation layer is then attached to the back of the iPhone.</p>
+
+<p>As all interactions from the back of the device needed to translate to how the paint is displayed on the front screen, we developed a paint mixing app. This iPhone app connects via Bluetooth to the prototype attachment. This allows the app to translate the coordinates of the interactions with the gel transmitted and display paint on the front screen. The app starts by displaying a set of primary colours (red, yellow and blue). From here, users can then drag these colours to other areas of the screen and mix them with other colours, all using the back of the device. Where the colours are dragged, these areas will also actuate to soft when the Peltier cools down the hydrogel where the paint runs from point to point. The application pairs with an iPad app that presents a canvas. Users pick the colour on the iPhone app with a stylus or finger, which they use to paint on the canvas. Our iPad app offers basic tools such as nib size adjustment and an erasure.</p>
+
+<h2 id="project-outcomes">Project Outcomes</h2>
+
+<div class="publications">
+  <ol class="bibliography"><li><div class="row">
+  <div class="col-sm-2 abbr">
+  
+  </div>
+
+  <div id="steerLiquidTangibleDisplay2018" class="col-sm-8">
+    
+      <div class="title">A Liquid Tangible Display for Mobile Colour Mixing</div>
+      <div class="author">
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                <em>Steer, Cameron</em>,
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://cs.swansea.ac.uk/~cssimonr/" target="_blank">Robinson, Simon</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://cs.swan.ac.uk/~csjen/" target="_blank">Pearson, Jen</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  <a href="https://www.swansea.ac.uk/staff/science/compsci/sahoo-d-r/" target="_blank">Sahoo, Deepak</a>,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+          
+          
+            
+              
+                
+                  Mabbett, Ian,
+                
+              
+            
+          
+        
+          
+          
+          
+          
+            
+              
+                
+                
+          
+          
+          
+            
+              
+                
+                  and <a href="https://www.cs.swan.ac.uk/~csmatt/" target="_blank">Jones, Matt</a>
+                
+              
+            
+          
+        
+      </div>
+
+      <div class="periodical">
+      
+        <em>In To appear in the proceedings of the 20th International Conference on Human-Computer Interaction with Mobile Devices and Services</em>
+      
+      
+        2018
+      
+      </div>
+    
+
+    <div class="links">
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </div>
+
+    <!-- Hidden abstract block -->
+    
+  </div>
+</div>
+</li></ol>
+</div>
+
+<p><strong>Talk from MobileHCI 2018</strong></p>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">    
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/TZU3UKNzi58" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+    </div>
+</div>
+
+
+  </article>
+
+</div>
+
+    </div>
+
+    <!-- Footer -->
+
+    
+<footer class="fixed-bottom">
+  <div class="container mt-0">
+    &copy; Copyright 2023 Cameron  Steer.
+    Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme. Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
+
+    
+    
+  </div>
+</footer>
+
+
+
+  </body>
+
+  <!-- Bootsrap & MDB scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.4.4/umd/popper.min.js" integrity="sha512-eUQ9hGdLjBjY3F41CScH3UX+4JDSI9zXeroz7hJ+RteoCaY+GP/LDoM8AO+Pt+DRFw3nXqsjh9Zsts8hnYv8/A==" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha512-M5KW3ztuIICmVIhjSqXe01oV2bpe248gOxqmlcYrEzAvws7Pw3z6BK0iGbrwvdrUQUhi3eXgtxp5I8PDo9YfjQ==" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/js/mdb.min.js" integrity="sha512-Mug9KHKmroQFMLm93zGrjhibM2z2Obg9l6qFG2qKjXEXkMp/VDkI4uju9m4QKPjWSwQ6O2qzZEnJDEeCw0Blcw==" crossorigin="anonymous"></script>
+
+  
+<!-- Mansory & imagesLoaded -->
+<script defer src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/mansory.js" type="text/javascript"></script>
+
+
+  
+
+
+<!-- Load Common JS -->
+<script src="/assets/js/common.js"></script>
+
+
+</html>
