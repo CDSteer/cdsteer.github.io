@@ -2,7 +2,9 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Cameron Steer # the website title (if blank, full name will be used instead)
+title: Dr Cameron Steer # the website title (if blank, full name will be used instead)
+dr: Dr
+pronouns: (He/Him)
 first_name: Cameron
 middle_name:
 last_name: Steer
